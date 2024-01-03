@@ -1,15 +1,18 @@
-.container__menu-tile{
-  color:white;
+.container__menu-title{
+
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #F4EC36;
 }
-.container__menu-tile > h1{
+.container__menu-title > h1{
+  color:black;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 185px;
+  font-size: 150px;
   font-family: 'segoe UI';
   display: flex;
   justify-content: center ;
 }
-.container__menu-tile > hr{
+.container__menu-title > hr{
   margin-top: 20px;
   margin-bottom: 5px;
 }
